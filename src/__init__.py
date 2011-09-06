@@ -22,7 +22,7 @@ def _tarjan_head(ctx, v):
         ctx.lowlink[v] = ctx.index[v]
         ctx.S.append(v)
         ctx.S_set.add(v)
-        it = iter(ctx.g[v])
+        it = iter(ctx.g.get(v, ()))
         ctx.T.append((it,False,v,None))
 
 def _tarjan_body(ctx, it, v):
@@ -129,7 +129,7 @@ def tarjan_recursive(g):
                 lowlink[v] = index[v]
                 S.append(v)
                 S_set.add(v)
-                for w in g[v]:
+                for w in g.get(v,()):
                         if w not in index:
                                 visit(w)
                                 lowlink[v] = min(lowlink[w], lowlink[v])
