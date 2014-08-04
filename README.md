@@ -58,3 +58,6 @@ Simply execute
 or from this source distribution, run
 
     python setup.py install
+
+[![Build Status](https://travis-ci.org/bwesterb/py-tarjan.png)](
+   https://travis-ci.org/bwesterb/py-tarjan)
