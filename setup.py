@@ -12,5 +12,13 @@ setup(name='tarjan',
       packages=['tarjan'],
       zip_safe=True,
       package_dir={'tarjan': 'src'},
-      test_suite='tarjan.tests'
+      test_suite='tarjan.tests',
+      classifiers = [
+            'Development Status :: 5 - Production/Stable',
+            'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+            'Programming Language :: Python :: 2.6',
+            'Programming Language :: Python :: 2.7',
+            'Programming Language :: Python :: 3.2',
+            'Programming Language :: Python :: 3.3',
+        ],
       )
