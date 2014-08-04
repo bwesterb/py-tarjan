@@ -12,5 +12,5 @@ setup(name='tarjan',
       packages=['tarjan'],
       zip_safe=True,
       package_dir={'tarjan': 'src'},
-      test_suite='tarjan.tests.suite'
+      test_suite='tarjan.tests'
       )
