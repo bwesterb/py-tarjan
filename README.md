@@ -6,7 +6,7 @@ returns as output its strongly connected components in a topological order.
 
 Example
 -------
-![](http://github.com/bwesterb/py-tarjan/raw/master/doc/example.png)
+![](/doc/example.png)
 
 ```python
 >>> tarjan({1:[2],2:[1,5],3:[4],4:[3,5],5:[6],6:[7],7:[8],8:[6,9],9:[]})
