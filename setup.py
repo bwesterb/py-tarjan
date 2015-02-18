@@ -1,11 +1,13 @@
 #!/usr/bin/env python
 
 from setuptools import setup
-from get_git_version import get_git_version
 
 setup(name='tarjan',
-      version=get_git_version(),
+      version='0.2.2.dev0',
       description='Implementation of Tarjan\'s algorithm: resolve cyclic deps',
+      long_description='{0:s}\n{0:s}'.format(
+          open('README.rst').read(),
+          open('CHANGES.rst').read()),
       author='Bas Westerbaan',
       author_email='bas@westerbaan.name',
       url='http://github.com/bwesterb/py-tarjan/',
