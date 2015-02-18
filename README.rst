@@ -7,12 +7,12 @@ returns as output its strongly connected components in a topological order.
 Example
 -------
 
-![](/doc/example.png)
+.. image:: https://raw.githubusercontent.com/bwesterb/py-tarjan/master/doc/example.png
 
-```python
->>> tarjan({1:[2],2:[1,5],3:[4],4:[3,5],5:[6],6:[7],7:[8],8:[6,9],9:[]})
-[[9], [8, 7, 6], [5], [2, 1], [4, 3]]
-```
+.. code::
+
+   >>> tarjan({1:[2],2:[1,5],3:[4],4:[3,5],5:[6],6:[7],7:[8],8:[6,9],9:[]})
+   [[9], [8, 7, 6], [5], [2, 1], [4, 3]]
 
 Uses
 ----
@@ -30,12 +30,13 @@ Transitive closure
 ~~~~~~~~~~~~~~~~~~
 
 Using Tarjan's algorithm, one can efficiently compute the transitive
-closure of a graph.  (Given a graph _G_, the transitive closure of _G_
-is a graph that contains the same vertices and contains an edge from _v_
-to _w_ if and only if there is a path from _v_ to _w_ in _G_.)
+closure of a graph.  (Given a graph *G*, the transitive closure of *G*
+is a graph that contains the same vertices and contains an edge from *v*
+to *w* if and only if there is a path from *v* to *w* in *G*.)
 
 The transitive closure is implemented in `tarjan.tc`:
 
+.. code::
 
     >>> tc({1:[2],2:[1,5],3:[4],4:[3,5],5:[6],6:[7],7:[8],8:[6,9],9:[]})
     {1: (1, 2, 5, 6, 7, 8, 9),
@@ -60,11 +61,15 @@ Installation
 ------------
 Simply execute
 
+.. code::
+
     easy_install tarjan
 
 or from this source distribution, run
 
+.. code::
+
     python setup.py install
 
-[![Build Status](https://travis-ci.org/bwesterb/py-tarjan.png)](
-   https://travis-ci.org/bwesterb/py-tarjan)
+.. image:: https://travis-ci.org/bwesterb/py-tarjan.png
+   :target: https://travis-ci.org/bwesterb/py-tarjan
