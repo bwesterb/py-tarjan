@@ -1,7 +1,7 @@
 Tarjan Changelog
 ================
 
-0.2.3 (unreleased)
+0.2.3 (2015-02-19)
 ------------------
 
 - Fix packaging bug [#6]
