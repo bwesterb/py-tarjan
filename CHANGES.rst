@@ -4,7 +4,7 @@ Tarjan Changelog
 0.2.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Python 3.6 support
 
 
 0.2.3.1 (2015-11-22)
