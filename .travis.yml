@@ -9,6 +9,8 @@ python:
  - "3.6"
 install:
  - "echo 'travis' > RELEASE-VERSION"
+ - "pip install flake8"
  - "python setup.py install"
 script:
  - "python setup.py test"
+ - "flake8"
