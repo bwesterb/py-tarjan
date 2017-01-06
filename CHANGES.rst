@@ -5,6 +5,7 @@ Tarjan Changelog
 ------------------
 
 - Bow to flake8
+- Do not support Python 2.6
 
 
 0.2.3.2 (2016-12-28)
