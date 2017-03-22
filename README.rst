@@ -38,6 +38,7 @@ The transitive closure is implemented in `tarjan.tc`:
 
 .. code::
 
+    >>> from tarjan.tc import tc
     >>> tc({1:[2],2:[1,5],3:[4],4:[3,5],5:[6],6:[7],7:[8],8:[6,9],9:[]})
     {1: (1, 2, 5, 6, 7, 8, 9),
      2: (1, 2, 5, 6, 7, 8, 9),
