@@ -64,7 +64,7 @@ Simply execute
 
 .. code::
 
-    easy_install tarjan
+    pip install tarjan
 
 or from this source distribution, run
 
