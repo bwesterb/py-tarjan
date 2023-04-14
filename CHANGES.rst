@@ -1,7 +1,7 @@
 Tarjan Changelog
 ================
 
-0.2.4 (unreleased)
+0.2.4 (2023-04-14)
 ------------------
 
 - Support Python 3.8 - 3.11

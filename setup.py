@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(name='tarjan',
-      version='0.2.4.dev0',
+      version='0.2.4',
       description='Implementation of Tarjan\'s algorithm: resolve cyclic deps',
       long_description='{0:s}\n{1:s}'.format(
           open('README.rst').read(),
