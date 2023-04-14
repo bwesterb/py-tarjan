@@ -4,7 +4,11 @@ Tarjan Changelog
 0.2.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Support Python 3.8 - 3.11
+- Drop support for Python 2.6, 3.2 - 3.7
+- Change license to LGPLv3
+- Switch to Github actions
+- Add flake8 linting
 
 
 0.2.3.2 (2016-12-28)
