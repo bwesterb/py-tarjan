@@ -13,7 +13,6 @@ setup(name='tarjan',
       url='http://github.com/bwesterb/py-tarjan/',
       packages=['tarjan', 'tarjan.tests'],
       zip_safe=True,
-      package_dir={'tarjan': 'src'},
       test_suite='tarjan.tests',
       classifiers=[
           'Development Status :: 5 - Production/Stable',
